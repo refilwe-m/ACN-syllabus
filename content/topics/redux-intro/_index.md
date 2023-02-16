@@ -76,7 +76,7 @@ So if we wanted Redux to actually add a thing to our todo list we would do somet
 dispatch({type: "ADD_TODO", title: "pay rent"})
 ```
 
-This is kinda a pain to write out so usually instead of doing thigs like this we make use of action creators. Eg:
+This is kinda a pain to write out so usually instead of doing things like this we make use of action creators. Eg:
 
 ```
 const ADD_TODO = "ADD_TODO"
